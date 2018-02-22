@@ -64,7 +64,6 @@
 	<message key="admin.server.apacheVersion">Версія Apache</message>
 	<message key="admin.server.dbDriver">Драйвер бази даних</message>
 	<message key="admin.server.dbVersion">Версія серверу баз даних</message>
-	<message key="admin.serverInformationDescription"><![CDATA[Базова операційна система та версії серверного програмного забезпечення. Посилання <span class="highlight">Розширена інформація про PHP</span> дає змогу переглянути деталізовані дані щодо конфігурації PHP на даному сервері.]]></message>
 	<message key="admin.serverInformation">Інформація про сервер</message>
 	<message key="admin.server.phpVersion">Версія PHP</message>
 	<message key="admin.server.platform">Операційна платформа</message>
@@ -85,7 +84,6 @@
 	<message key="admin.settings.homeHeaderImageInvalid">Неприпустимий формат зображення логотипу. Припустимі формати .gif, .jpg, або .png.</message>
 	<message key="admin.settings.introduction">Вступ</message>
 	<message key="admin.settings.minPasswordLength">Мінімальна довжина пароля</message>
-	<message key="admin.settings.passwordCharacters">символів</message>
 	<message key="admin.settings.siteLanguage">Мова сайту</message>
 	<message key="admin.settings.siteStyleSheetInvalid">Неприпустимий формат таблиці стилю сайту. Припустимий формат .css.</message>
 	<message key="admin.settings.siteStyleSheet">Таблиця стилю сайту</message>
@@ -135,7 +133,6 @@
 	<message key="admin.error.utilExecutionProblem">Виконання програми «{$utilPath}» завершилось такою помилкою: {$output}</message>
 	<message key="admin.error.executingUtil">Помилка: не можу виконати «{$utilPath}». Перевірте ваші налаштування {$utilVar} у файлі config.inc.php.</message>
 	<message key="admin.languages.noLocalesToDownload">Відсутні мови для завантаження.</message>
-	<message key=""><![CDATA[]]></message>
 
 	<!-- Not in English anymore-->
 	<message key="admin.serverInformationDescription"><![CDATA[Базова операційна система та версії серверного програмного забезпечення. Посилання <span class="highlight">Розширена інформація про PHP</span> дає змогу переглянути деталізовані дані щодо конфігурації PHP на даному сервері.]]></message>

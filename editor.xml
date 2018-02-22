@@ -17,10 +17,12 @@
 	<message key="editor.review.notInitiated">Рецензування ще не розпочалося.</message>
 	<message key="editor.submission.copyediting.personalMessageToUser">Повідомлення користувачу</message>
 	<message key="editor.submission.externalReviewDescription">Виберіть файли нижче, щоб надіслати їх на етап рецензування.</message>
+	<!-- Додати файл або аудитора до сітки редактора/аудиту -->
 	<message key="editor.submission.fileAuditor.form.fileRequired">Ви маєте вибрати принаймні один файл, щоб призначити користувача.</message>
 	<message key="editor.submission.fileAuditor.form.messageRequired">Ви повинні включити особисте повідомлення.</message>
 	<message key="editor.submission.fileAuditor.skipEmail">Не надсилати електронного листа аудитору</message>
 	<message key="editor.submission.fileAuditor.form.userRequired">Ви маєте вибрати користувача для призначення.</message>
+	<message key="editor.submission.uploadSelectFiles">Завантажити/Вибрати файли</message>
 	<message key="editor.submission.selectFiles">Вибрати файли</message>
 	<message key="editor.submission.revisions">Версії</message>
 	<message key="editor.submission.review.reviewersDescription"><![CDATA[Використовуйте <em>+Додати рецензента</em>, щоб запросити читачів рецензувати файли матеріалів. Значок записника вказує на те, що було надіслано рецензію, яка потім позначається <em>Прийнята</em> після розгляду. Коли відгуки прострочені, з'являється значок червоного конверту для нагадування рецензентам.]]></message>
@@ -34,6 +36,8 @@
 	<message key="editor.review.enrollReviewer.short">Записати існуючого користувача</message>
 	<message key="editor.review.unassignReviewer">Скасувати призначення рецензента</message>
 	<message key="editor.submissionReview.reviewType">Тип рецензування</message>
+	<message key="editor.submissionReview.sendEmail">Надішліть сповіщення електронною поштою автору (авторам): {$authorName}</message>
+	<message key="editor.submissionReview.sendEmail.editors">Надішліть сповіщення електронною поштою редактору (редакторам): {$editorNames}</message>
 	<message key="editor.submissionReview.skipEmail">Не надсилати електронного листа автору</message>
 	<message key="editor.submissionReview.open">Відкрите</message>
 	<message key="editor.submissionReview.blind">Сліпе</message>
@@ -44,13 +48,11 @@
 	<message key="editor.review.personalMessageToReviewer">Електронний лист для надсилання рецензенту</message>
 	<message key="editor.review.importantDates">Важливі дати</message>
 	<message key="editor.review.uploadRevision">Завантажити нову версію</message>
-	<message key="editor.review.NotifyAuthorAccept">Повідомити автору, що його матеріал був прийнятий.</message>
-	<message key="editor.review.NotifyAuthorDecline">Повідомити автору, що його матеріал був відхилений.</message>
+	<message key="editor.review.newReviewRound">Потрібен новий раунд рецензування</message>
 	<message key="editor.review.NotifyAuthorRevisions">Запит нової версії від автора.</message>
 	<message key="editor.review.NotifyAuthorResubmit">Запит нової версії від автора, яка підлягатиме подальшому рецензуванню.</message>
-	<message key="editor.review.NotifyAuthorExternal">Повідомити автора про рішення розпочати зовнішнє рецензування.</message>
-	<message key="editor.review.personalMessageToAuthor">Електронний лист для надсилання автору</message>
 	<message key="editor.review.dateAccepted">Дата прийняття матеріалу на рецензування</message>
+	<message key="editor.review.reviewsAdded">Рецензії додані в текст повідомлення.</message>
 	<message key="editor.review.noReviews">Немає рецензій для імпорту</message>
 	<message key="editor.review.reminder">Нагадування про рецензію</message>
 	<message key="editor.review.thankReviewer">Подяка рецензенту</message>
@@ -70,14 +72,15 @@
 	<message key="editor.review.reviewConfirmed">Рецензію підтверджено</message>
 	<message key="editor.review.reviewSubmitted">Рецензію надіслано</message>
 	<message key="editor.review.reviewerComments">Коментарі рецензента</message>
-	<message key="editor.review.days">Середня кількість днів</message>
+	<message key="editor.review.rateReviewer">Оцінка рецензента</message>
+	<message key="editor.review.rateReviewer.description">Оцініть якість поданої рецензії. Ця оцінка не повідомлятиметься рецензенту.</message>
+	<message key="editor.review.reviewerRating.none">Немає оцінки</message>
 	<message key="editor.review.mustSelect">Ви маєте вибрати рецензента</message>
 	<message key="editor.review.errorAddingReviewer">Під час додавання рецензента сталася помилка. Будь ласка спробуйте ще раз.</message>
 	<message key="editor.review.errorDeletingReviewer">Під час видалення рецензента сталася помилка. Будь ласка спробуйте ще раз.</message>
 	<message key="editor.review.userGroupSelect">Записати користувача до цієї групи рецензентів</message>
 	<message key="editor.review.unconsiderReviewText">Ви хочете позначити, що ця рецензія нерозглянута? Історія рецензування буде збережена.</message>
 	<message key="editor.review.unconsiderReview">Позначте,що цю рецензію розглянуто</message>
-	<message key="editor.submission.uploadSelectFiles">Завантажити/Вибрати файли</message>
 	<message key="editor.review.readConfirmation">Після того як прочитаєте цю рецензію, натисніть "Підтвердити", щоб вказати, що процес рецензування може продовжуватись. Якщо рецензент надіслав свою рецензію якимось іншим чином, ви можете завантажити файл нижче та натиснути "Підтвердити", щоб продовжити.</message>
 	<message key="editor.submission.selectCopyedingFiles">Файли для літературного редагування</message>
 	<message key="editor.submission.selectReviewer">Обрати рецензента</message>
@@ -99,11 +102,15 @@
 	<message key="editor.submission.production.productionReadyFiles">Файли для публікації</message>
 	<message key="editor.submission.newRound">Новий раунд рецензування</message>
 	<message key="editor.submissionReview.recordDecision">Записати рішення редакції</message>
+	<message key="editor.submissionReview.recordRecommendation">Записати рекомендацію редактора</message>
+	<message key="editor.submissionReview.recordRecommendation.notifyEditors">Повідомити редакторів</message>
+	<message key="editor.submissionReview.recordRecommendation.skipEmail">Не надсилати редакторам електронного листа.</message>
+	<message key="editor.submissionReview.recordRecommendation.createDiscussion">Створити обговорення цієї рекомендації.</message>
+	<message key="editor.submissionReview.recordRecommendation.skipDiscussion">Не свторювати обговорення.</message>
 	<message key="editor.submission.newRoundDescription">Ви збираєтеся створити новий раунд рецензування для цього матеріалу. Файли, які не використовувалися в інших раундах рецензування, наведено нижче.</message>
 	<message key="editor.submission.createNewRound">Створити новий раунд рецензування</message>
 	<message key="editor.article.reviewForms">Форми рецензії</message>
 	<message key="editor.article.selectReviewForm">Обрати форму рецензії</message>
-	<message key="editor.article.clearReviewForm">Очистити форму рецензії</message>
 	<message key="editor.article.confirmChangeReviewForm">Попередження: зміна форми рецензії вплине на усі рецензії, зроблені рецензентами за допомогою цієї форми. Ви впевнені, що хочете продовжити?</message>
 	<message key="editor.submission.noReviewerFilesSelected">Файли не вибрано</message>
 	<message key="editor.submission.noReviewerFilesSelected.details">Ви не обрали жодного файлу для рецензії рецензентом.</message>
@@ -117,7 +124,32 @@
 	<message key="editor.submission.proofreading.revokeProofApproval">Скасувати схвалення коректури</message>
 	<message key="editor.submission.proofreading.confirmCompletion">Схвалити цю коректуру, щоб вказати, що коректура завершена, і файл готовий до публікації.</message>
 	<message key="editor.submission.proofreading.confirmRemoveCompletion">Скасувати схвалення цієї коректури, щоб вказати, що коректура ще не завершена, і файл не готовий до публікації.</message>
-	<message key="editor.publicIdentificationExistsForTheSameType">Відкритий ідентифікатор '{$publicIdentifier}' уже існує для іншого об'єкта цього ж типу. Будь ласка, обирайте унікальні ідентифікатори для об'єктів однакового типу у вашому журналі.</message>
 	<message key="editor.publicIdentificationNumericNotAllowed">Відкритий ідентифікатор '{$publicIdentifier}' не може бути числом.</message>
 	<message key="editor.publicIdentificationPatternNotAllowed">Шаблон {$pattern} заборонено для відкритого ідентифікатора.</message>
+
+	<!-- Reviewer selection lists -->
+	<message key="reviewer.list.count">{$count} рецензентів</message>
+	<message key="reviewer.list.itemsOfTotal">{$count} з {$total} рецензентів</message>
+	<message key="reviewer.list.filterRating">Найнижчі оцінки</message>
+	<message key="reviewer.list.activeReviews">{$count} активних</message>
+	<message key="reviewer.list.activeReviewsDescription">Поточні активні рецензії</message>
+	<message key="reviewer.list.completedReviews">Завершені рецензії</message>
+	<message key="reviewer.list.reviewerRating">Оцінка рецензента: {$rating}</message>
+	<message key="reviewer.list.daysSinceLastAssignment">{$days} днів тому</message>
+	<message key="reviewer.list.daySinceLastAssignment">Вчора</message>
+	<message key="reviewer.list.daysSinceLastAssignmentDescription">Днів з часу останнього призначення рецензії</message>
+	<message key="reviewer.list.averageCompletion">Середня кількість днів для завершення рецензії</message>
+	<message key="reviewer.list.neverAssigned">Ніколи не призначено</message>
+	<message key="reviewer.list.currentlyAssigned">Цей рецензент уже був призначений для рецензування цього матеріалу.</message>
+	<message key="reviewer.list.reviewInterests">Наукові інтереси рецензента</message>
+	<message key="reviewer.list.biography">Біографія</message>
+
+	<!-- Not in English anymore-->
+	<message key="editor.review.NotifyAuthorAccept">Повідомити автору, що його матеріал був прийнятий.</message>
+	<message key="editor.review.NotifyAuthorDecline">Повідомити автору, що його матеріал був відхилений.</message>
+	<message key="editor.review.NotifyAuthorExternal">Повідомити автора про рішення розпочати зовнішнє рецензування.</message>
+	<message key="editor.review.personalMessageToAuthor">Електронний лист для надсилання автору</message>
+	<message key="editor.review.days">Середня кількість днів</message>
+	<message key="editor.article.clearReviewForm">Очистити форму рецензії</message>	
+	<message key="editor.publicIdentificationExistsForTheSameType">Відкритий ідентифікатор '{$publicIdentifier}' уже існує для іншого об'єкта цього ж типу. Будь ласка, обирайте унікальні ідентифікатори для об'єктів однакового типу у вашому журналі.</message>	
 </locale>
