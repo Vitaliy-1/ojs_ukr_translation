@@ -49,7 +49,7 @@
 	<message key="user.profile.form.profileImageInvalid">Неприпустимий формат фото або зображення занадто великого розміру. Припустимими форматами є .gif, .jpg, або .png, розмір зображення не повинен бути більшим 150x150 пікселів.</message>
 	<message key="user.login.accountDisabledWithReason">Ваш обліковий запис був відключений через таку причину: {$reason}</message>
 	<message key="user.login.accountDisabled">Ваш обліковий запис був відключений. Будь ласка, контактуйте з адміністратором для додаткової інформації.</message>
-	<message key="user.login.accountNotValidated">Ваша адреса email не була підтверджена. Будь ласка, перевірте свою пошту та виконайте вказані у листі інструкції. Якщо ви не отримали листа, можливо, необхідно звернутися за допомогою до адміністратора сайту.</message>
+	<message key="user.login.accountNotValidated">Ваша адреса email {$email} не була підтверджена. Будь ласка, перевірте свою пошту та виконайте вказані у листі інструкції. Якщо ви не отримали листа, можливо, необхідно звернутися за допомогою до адміністратора сайту.</message>
 	<message key="user.login.activate">Активувати обліковий запис</message>
 	<message key="user.login.activated">Дякуємо за активацію вашого облікового запису. Тепер ви можете увійти до системи, використовуючи дані, вказані під час реєстрації.</message>
 	<message key="user.login.changePasswordInstructions"><![CDATA[Перш ніж ви зможете зайти на сайт, ви повинні обрати новий пароль.<br /><br />Для того, щоб змінити пароль для вашого облікового запису, будь ласка, введіть нижче ім'я користувача, старий та новий паролі.]]></message>
@@ -62,7 +62,7 @@
 	<message key="user.login.lostPassword.passwordSent">На вашу адресу email був надісланий новий пароль. Тепер ви можете увійти на сайт зі своїм новим паролем.</message>
 	<message key="user.login.registeredEmail">Адреса email користувача</message>
 	<message key="user.login.registrationComplete">Реєстрацію завершено</message>
-	<message key="user.login.registrationComplete.instructions">>Дякуємо за реєстрацію! Що б ви хотіли зробити далі?</message>
+	<message key="user.login.registrationComplete.instructions">Дякуємо за реєстрацію! Що б ви хотіли зробити далі?</message>
 	<message key="user.login.registrationComplete.manageSubmissions">Переглянути матеріали</message>
 	<message key="user.login.registrationComplete.newSubmission">Надіслати новий матеріал</message>
 	<message key="user.login.registrationComplete.continueBrowsing">Продовжити перегляд в браузері</message>
@@ -113,8 +113,7 @@
 	<message key="user.register.form.usernameAlphaNumeric">Ім'я користувача може містити лише цифри, маленькі латинські літери, символи підкреслення та дефіси, а також має починатися і закінчуватися літерою або цифрою.</message>
 	<message key="user.register.form.userGroupRequired">Необхідно вибрати принаймні одну роль.</message>
 	<message key="user.register.form.usernameExists">Вказане ім'я користувача вже використовується в іншому обліковому записі.</message>
-	<message key="user.register.passwordLengthRestriction">Пароль повинен бути не менше {$length} символів.</message>
-	<message key="user.register.registerAs">Зареєструватися як</message>
+	<message key="user.register.registerAs">Зареєструватися в {$contextName} як</message>
 	<message key="user.register">Зареєструватися</message>
 	<message key="user.register.usernameRestriction">Ім'я користувача може складатися лише з рядкових літер, цифр та тире/символів підкреслення.</message>
 	<message key="user.register.registrationCompleted"><![CDATA[Ви успішно зареєструвалися. <a href="{$profileUrl}">Натисніть тут</a> tщоб заповнити свій профіль користувача.]]></message>
@@ -160,5 +159,6 @@
 
 	<!-- Not in English anymore-->
 	<message key="user.biography.description">(наприклад, відділ та посада)</message>
-	<message key="user.register.completeForm">Щоб зареєструватися у цьому журналі заповніть форму нижче.</message>		
+	<message key="user.register.completeForm">Щоб зареєструватися у цьому журналі заповніть форму нижче.</message>
+	<message key="user.register.passwordLengthRestriction">Пароль повинен бути не менше {$length} символів.</message>
 </locale>
