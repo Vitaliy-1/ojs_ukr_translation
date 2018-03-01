@@ -13,7 +13,7 @@
 
 <locale name="uk_UA" full_name="Українська">
 	<message key="common.publicKnowledgeProject">Public Knowledge Project</message>
-	<message key="common.currentStyleSheet">Current Stylesheet</message>
+	<message key="common.currentStyleSheet">Поточна таблиця стилів</message>
 	<message key="about.description">Опис</message>
 	<message key="about.guidelines">Методичні рекомендації</message>
 	<message key="about.aboutSite">Про сайт</message>
@@ -33,14 +33,14 @@
 	<message key="announcement.posted">Опубліковано</message>
 	<message key="announcement.postedOn">Опубліковано від {$postDate}</message>
 	<message key="announcement.view">Дивитися анонс</message>
-	<message key="common.allDownloads">All Downloads</message>
-	<message key="common.navigation.sidebar">Sidebar</message>
-	<message key="common.navigation.site">Site Navigation</message>
-	<message key="common.navigation.siteContext">Site Context Navigation</message>
-	<message key="common.navigation.user">User Navigation</message>
-	<message key="common.tasks">Tasks</message>
-	<message key="common.list">List</message>
-	<message key="common.grid">Grid</message>
+	<message key="common.allDownloads">Усі завантаження</message>
+	<message key="common.navigation.sidebar">Бічна панель</message>
+	<message key="common.navigation.site">Навігація сайту</message>
+	<message key="common.navigation.siteContext">Контекстна навігація сайту</message>
+	<message key="common.navigation.user">Навігація користувача</message>
+	<message key="common.tasks">Завдання</message>
+	<message key="common.list">Список</message>
+	<message key="common.grid">Таблиця</message>
 	<message key="common.confirmDelete">Ви впевнені, що бажаєте це видалити? Цю дію неможливо відмінити.</message>
 	<message key="common.abstract">Анотація (двома мовами)</message>
 	<message key="common.accepted">Підтверджений</message>
@@ -53,7 +53,7 @@
 	<message key="common.name">Ім'я</message>
 	<message key="common.all">Всі</message>
 	<message key="common.alphaList">А Б В Г Ґ Д Е Є Ж З И І Ї К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я</message>
-	<message key="common.titleSmallWords">of a the and an or nor but is if then else when at from by on off for in out over to into with</message>
+	<message key="common.titleSmallWords">а або але бо в де для з з-під зі і із й коли крізь на не під при про у та там тоді що</message>
 	<message key="common.alreadyAssigned">Призначений</message>
 	<message key="common.altText">Альтернативний текст</message>
 	<message key="common.altTextInstructions">Будь ласка, додайте до цього зображення альтернативний текст, щоби підвищити доступність для користувачів, які використовують текстові браузери та допоміжні пристрої.</message>
@@ -71,8 +71,8 @@
 	<message key="common.error">Помилка</message>
 	<message key="common.notice">Повідомлення</message>
 	<!-- Captcha error messages. See: https://developers.google.com/recaptcha/docs/verify -->
-	<message key="common.captcha.error.missing-input-secret">Підтвердження для цього сайту введено невірно.Забули ввести таємний ключ</message>
-	<message key="common.captcha.error.invalid-input-secret">Підтвердження для цього сайту введено невірно.Таємний ключ невірний.</message>
+	<message key="common.captcha.error.missing-input-secret">Підтвердження для цього сайту введено неправильно.Забули ввести таємний ключ</message>
+	<message key="common.captcha.error.invalid-input-secret">Підтвердження для цього сайту введено неправильно.Таємний ключ неправильний.</message>
 	<message key="common.captcha.error.missing-input-response">Ви повинні завершити підтвердження задля попередження розсилання спаму.</message>
 	<message key="common.captcha.error.invalid-input-response">Ви не пройшли підтвердження задля попередження розсилання спаму.</message>
 	<message key="common.captchaField.description">Будь ласка, введіть літери, подані на зображенні вище.</message>
@@ -114,8 +114,8 @@
 	<message key="common.dateModified">Дата зміни</message>
 	<message key="common.dateRequested">Дата запиту</message>
 	<message key="common.dateSubmitted">Дата надсилання</message>
-	<message key="common.dateUploaded">Дата вивантаження</message>
-	<message key="common.dateHijri">Календар Хіджі</message>
+	<message key="common.dateUploaded">Дата завантаження</message>
+	<message key="common.dateHijri">Мусульманський календар</message>
 	<message key="common.day">День</message>
 	<message key="common.deactivate">Деактивувати</message>
 	<message key="common.default">За замовчуванням</message>
@@ -126,7 +126,7 @@
 	<message key="common.designation">Позначення</message>
 	<message key="common.description">Опис</message>
 	<message key="common.dimensionsInches"><![CDATA[{$width}&Prime;&times;{$height}&Prime; at {$dpi} DPI/PPI]]></message>
-	<message key="common.dimensionsPixels"><![CDATA[{$width}&times;{$height} pixels]]></message>
+	<message key="common.dimensionsPixels"><![CDATA[{$width}&times;{$height} пікселів]]></message>
 	<message key="common.disable">Відключити</message>
 	<message key="common.disabled">Відключено</message>
 	<message key="common.discipline">Дисципліна</message>
@@ -144,7 +144,7 @@
 	<message key="common.finish">Завершено</message>
 	<message key="common.fullscreen">Повноекранний режим</message>
 	<message key="common.fullscreenOff">Відключення повноекранного режиму</message>
-	<message key="common.false">Помилка</message>
+	<message key="common.false">Хиба</message>
 	<message key="common.file">Файл</message>
 	<message key="common.file.namingPattern">{$username}, {$userGroup}, {$originalFilename}</message>
 	<message key="common.file.anonymousNamingPattern">{$userGroup}, {$originalFilename}</message>
@@ -152,6 +152,9 @@
 	<message key="common.fileSize">Розмір файлу</message>
 	<message key="common.fileType">Тип файлу</message>
 	<message key="common.fileUploaderError">Системний файл завантажується. Якщо цього не відбулось, це означає що не підтримується браузером.Будь ласка зверніться до адміністратора.</message>
+	<message key="common.filter">Фільтри</message>
+	<message key="common.filterAdd">Додати фільтр: {$filterTitle}</message>
+	<message key="common.filterRemove">Скасувати фільтр: {$filterTitle}</message>
 	<message key="common.from">Від</message>
 	<message key="common.until">До</message>
 	<message key="common.go">Вперед</message>
@@ -169,6 +172,8 @@
 	<message key="common.language">Мова</message>
 	<message key="common.languages">Мови</message>
 	<message key="common.less">Менше</message>
+	<message key="common.lessThan">{$value} або менше</message>
+	<message key="common.listSeparator">, </message>
 	<message key="common.manage">Змінити</message>
 	<message key="common.mailingAddress">Поштова адреса</message>
 	<message key="common.billingAddress">Адреса для рахунку (якщо відрізняється)</message>
@@ -176,6 +181,7 @@
 	<message key="common.modify">Змінити</message>
 	<message key="common.month">Місяць</message>
 	<message key="common.more">Більше</message>
+	<message key="common.moreThan">{$value} або більше</message>
 	<message key="common.noneAssigned">Немає призначень</message>
 	<message key="common.none">Немає</message>
 	<message key="common.no">Ні</message>
@@ -198,6 +204,8 @@
 	<message key="common.or">або</message>
 	<message key="common.other">Інше</message>
 	<message key="common.overdue">Прострочений</message>
+	<message key="common.pagination">{$start}-{$end} з {$total}</message>
+	<message key="common.pagination.label">Переглянути додаткові сторінки</message>
 	<message key="common.pageNumber">Сторінка {$pageNumber}</message>
 	<message key="common.pageHeaderLogo.altText">Логотип заголовку сторінки</message>
 	<message key="common.percentage">{$percentage}%</message>
@@ -228,13 +236,14 @@
 	<message key="common.replaceFile">Замінити файл</message>
 	<message key="common.requiredField">* Позначає обов'язкові поля</message>
 	<message key="common.required">Обов'язково</message>
-	<message key="common.reset">Перезагрузка</message>
+	<message key="common.reset">Перезавантаження</message>
 	<message key="common.saveAndContinue">Зберегти та продовжити</message>
 	<message key="common.saveAndEmail">Зберегти та надіслати</message>
 	<message key="common.save">Зберегти</message>
 	<message key="common.saving">Збереження</message>
 	<message key="common.search">Пошук</message>
-	<message key="common.searchQuery">Пошукова Черга</message>
+	<message key="common.searchQuery">Пошуковий запит</message>
+	<message key="common.clearSearch">Очистити пошукову фразу</message>
 	<message key="common.second">секунд</message>
 	<message key="common.selectAll">Вибрати все</message>
 	<message key="common.selectNone">Скасувати вибір</message>
@@ -250,23 +259,23 @@
 	<message key="common.suggest">Запропонувати</message>
 	<message key="common.title">Заголовок</message>
 	<message key="common.top">До початку</message>
-	<message key="common.true">True</message>
+	<message key="common.true">Істина</message>
 	<message key="common.type">Тип</message>
 	<message key="common.component">Компонент</message>
 	<message key="common.uninitiated">Нерозпочате</message>
 	<message key="common.unread">Непрочитане</message>
 	<message key="common.untitled">Без заголовку</message>
 	<message key="common.updated">Оновлено</message>
-	<message key="common.uploadedFile">Вивантажений файл</message>
 	<message key="common.uploadedDate">Дата завантаження</message>
-	<message key="common.upload">Вивантажити</message>
-	<message key="common.uploadFailed">Цей файл не може бути вивантажений або змінений.</message>
-	<message key="common.invalidFileType">Не вивантажено жодного файлу або неправильний тип файлу!</message>
+	<message key="common.uploadedFile">Завантажений файл</message>
+	<message key="common.upload">Завантажити</message>
+	<message key="common.uploadFailed">Цей файл не може бути завантажений або змінений.</message>
+	<message key="common.invalidFileType">Не завантажено жодного файлу або неправильний тип файлу!</message>
 	<message key="common.homepageImage.altText">Зображення домашньої сторінки</message>
 	<message key="common.up">Нагору</message>
-	<message key="common.upload.addFile">Вивантажити файл</message>
+	<message key="common.upload.addFile">Завантажити файл</message>
 	<message key="common.upload.changeFile">Змінити файл</message>
-	<message key="common.upload.dragFile">Перетягніть файл для початку вивантаження</message>
+	<message key="common.upload.dragFile">Перетягніть файл для початку завантаження</message>
 	<message key="common.url">URL</message>
 	<message key="common.user">Користувач</message>
 	<message key="common.view">Дивитися</message>
@@ -315,9 +324,9 @@
 	<message key="email.skip">Пропустити Email</message>
 	<message key="email.subject">Тема</message>
 	<message key="email.subjectRequired">Будь ласка введіть тему Еmail-a.</message>
-	<message key="email.bodyRequired">Будь ласка введіть зміст email-а .</message>
+	<message key="email.bodyRequired">Будь ласка введіть зміст email-а.</message>
 	<message key="email.to">Кому</message>
-	<message key="form.url.invalid">Вказаний URL є невірним. Будь ласка перевірьте його і спробуйте ще.</message>
+	<message key="form.url.invalid">Вказано неправильний URL. Будь ласка, перевірте його і спробуйте ще.</message>
 	<message key="form.confirmSubmit">Ви впевнені що бажаєте надіслати цю форму?</message>
 	<message key="form.confirmSubmit.title">Підтвердження</message>
 	<message key="form.emailRequired">Необхідно ввести email</message>
@@ -330,13 +339,13 @@
 	<message key="form.startsWith">починається з</message>
 	<message key="form.postRequired">Форма не була надіслана належним чином.</message>
 	<message key="form.csrfInvalid">Форма не була надіслана належним чином.</message>
-	<message key="form.required">(* обов'язкове)</message>
 	<message key="form.fileRequired">Необхідно завантажити файл.</message>
+	<message key="form.required">(* обов'язкове)</message>
 	<message key="form.resubmit">Відправити знову</message>
-	<message key="form.saveToUpload">Для вивантаження файлу використовуйте кнопку "Зберегти".</message>
+	<message key="form.saveToUpload">Для завантаження файлу використовуйте кнопку "Зберегти".</message>
 	<message key="form.send">Надіслати</message>
 	<message key="form.submit">Відправити</message>
-	<message key="form.invalidImage">Невірне зображення.Допустимими форматами є: .png, .gif, або .jpg.</message>
+	<message key="form.invalidImage">Неправильне зображення. Допустимими форматами є: .png, .gif, або .jpg.</message>
 	<message key="help.help">Допомога</message>
 	<message key="help.toc">Зміст</message>
 	<message key="help.previous">Попереднє</message>
@@ -371,6 +380,8 @@
 	
 	<!-- Stage Participants -->
 	<message key="stageParticipants.history.messageSent">Опубліковано нову нотатку.</message>
+	<message key="stageParticipants.notify.startDiscussion">Почати обговорення</message>
+	<message key="stageParticipants.notify.startDiscussion.description">Почати обговорення між вами та {$userFullName}.</message>
 	<message key="stageParticipants.notify.chooseMessage">Оберіть стандартне повідомлення для використання або заповніть форму нижче.</message>
 	<message key="stageParticipants.notify.message">Повідомлення</message>
 	<message key="stageParticipants.notify.warning">Будь ласка, переконайтесь, що ви заповнили поле повідомлення та вибрали хоча б одного одержувача.</message>
@@ -379,7 +390,7 @@
 	
 	<message key="locale.primary">Основна локалізація</message>
 	<message key="locale.supported">Локалізації, що підтримуються</message>
-	<message key="navigation.access"><![CDATA[Users &amp; Roles]]></message>
+	<message key="navigation.access"><![CDATA[Користувачі і ролі]]></message>
 	<message key="navigation.about">Про нас</message>
 	<message key="navigation.admin">Адміністрування</message>
 	<message key="navigation.archives">Архіви</message>
@@ -397,7 +408,7 @@
 	<message key="navigation.infoForReaders">Для читачів</message>
 	<message key="navigation.infoForReaders.long">Інформація для читачів</message>
 	<message key="navigation.items">{$from} - {$to} з {$total} результатів</message>
-	<message key="navigation.items.shownTotal">{$shown} of {$total} результатів</message>
+	<message key="navigation.items.shownTotal">{$shown} з {$total} результатів</message>
 	<message key="navigation.login">Увійти</message>
 	<message key="navigation.nextPage"><![CDATA[&gt;&gt;]]></message>
 	<message key="navigation.nextStep">Наступний крок</message>
@@ -418,7 +429,7 @@
 	<message key="navigation.userHome">Тека користувача</message>
 	<message key="navigation.user">Користувач</message>
 	<message key="navigation.userManagement">Управління користувачами</message>
-	<message key="navigation.viewFrontend">Переглядати сайт</message>
+	<message key="navigation.viewFrontend">Переглянути сайт</message>
 	<message key="notification.addedAuditor">Аудитора додано.</message>
 	<message key="notification.removedAuditor">Аудитора видалено.</message>
 	<message key="notification.addedQuery">Додано дискусію</message>
@@ -492,7 +503,7 @@
 	<message key="search.operator.and">AND</message>
 	<message key="search.operator.not">NOT</message>
 	<message key="search.operator.or">OR</message>
-	<message key="search.SearchFor">Искать по</message>
+	<message key="search.SearchFor">Шукати</message>
 	<message key="search.searchResults">Результати пошуку</message>
 	<message key="search.subject">Ключові слова</message>
 	<message key="search.titleIndex">Перегляд списку назв робіт</message>
@@ -503,50 +514,50 @@
 	<message key="grid.action.downloadFile">Завантажити цей файл</message>
 
 	<message key="context.path">Шлях</message>
-	<message key="review.ensuringBlindReview">Забезпечення сліпої рецензії</message>
-	<message key="grid.action.showReviewPolicy">Прочитайте поточну політику перегляду</message>
+	<message key="review.ensuringBlindReview">Забезпечення сліпого рецензування</message>
+	<message key="grid.action.showReviewPolicy">Перегляньте поточні правила рецензування</message>
 	<message key="grid.action.deleteNotification">Видалити завдання</message>
-	<message key="grid.action.markNew">Помітити нове</message>
-	<message key="grid.action.markRead">Помітити прочитане</message>
+	<message key="grid.action.markNew">Позначити як непрочитане</message>
+	<message key="grid.action.markRead">Позначити як прочитане</message>
 
 	<message key="dashboard.tasks">Завдання</message>
 	<message key="dashboard.myQueue">Моя черга</message>
 
 	<message key="review.blindPeerReview">
-		<![CDATA[<p>To ensure the integrity of the blind peer-review for submission to this press, every effort should be made to prevent the identities of the authors and reviewers from being known to each other. This involves the authors, editors, and reviewers (who upload documents as part of their review) checking to see if the following steps have been taken with regard to the text and the file properties:</p>
-			<ul><li>The authors of the document have deleted their names from the text, with "Author" and year used in the references and footnotes, instead of the authors' name, article title, etc.</li>
-			<li>With Microsoft Office documents, author identification should also be removed from the properties for the file (see under File in Word), by clicking on the following, beginning with File on the main menu of the Microsoft application: File &gt; Save As &gt; Tools (or Options with a Mac) &gt; Security &gt; Remove personal information from file properties on save &gt; Save.</li>
-			<li>With PDFs, the authors' names should also be removed from Document Properties found under File on Adobe Acrobat's main menu.</li>
+		<![CDATA[<p>Щоб забезпечити чесність сліпого рецензування для цього видання, необхідно докласти усіх зусиль, щоб автори і рецензенти нічого не знали один про одного. Для цього автори, редактори і рецензенти (ті, хто завантажує документи як частину своєї рецензії) мають перевірити, чи були виконані усі наступні дії щодо тексту та властивостей файлу:</p>
+			<ul><li>Автори документа видалили свої імена з тексту, використовуючи «Автор» і рік в бібліографічних посиланнях та виносках, замість імен авторів, назви статті тощо</li>
+			<li>В документах Microsoft Office  ідентифікатор автора також слід видалити з властивостей файлу  (див. меню «Файл» в Word), обираючи пункти в такій послідовності, починаючи з меню «Файл» в головному меню додатку Microsoft: Файл &gt; Зберегти як &gt; Інструменти (або Параметри в Mac) &gt; Безпека &gt; Видаляти особисті відомості з цього файлу при збереженні &gt; Зберегти.</li>
+			<li>В файлах PDF також слід видалити імена авторів із властивостей документа, розташованих у меню Файл в головному меню програми Adobe Acrobat.</li>
 		</ul>]]>
 	</message>
-	<message key="reviewer.submission.reviewSchedule">Перегляд розкладу</message>
+	<message key="reviewer.submission.reviewSchedule">Графік рецензування</message>
 	<message key="reviewer.submission.reviewRequestDate">Запит редактора</message>
-	<message key="reviewer.submission.responseDueDate">Дата закінчення відповіді</message>
-	<message key="reviewer.submission.reviewDueDate">Дата перевірки</message>
-	<message key="submission.task.responseDueDate">Дата відповіді</message>
+	<message key="reviewer.submission.responseDueDate">Дата отримання відповіді на запит</message>
+	<message key="reviewer.submission.reviewDueDate">Дата отримання рецензії</message>
+	<message key="submission.task.responseDueDate">Дата підтвердження отримання рецензії</message>
 	<message key="navigation.goBack">Повернутись назад</message>
 
-	<message key="notification.addedReviewer">{$reviewerName} було призначено переглянути це подання та надіслано повідомлення електронною поштою.</message>
-	<message key="notification.addedReviewerNoEmail">{$reviewerName} wбуло призначено переглянути це подання і не було надіслано повідомлення електронною поштою.</message>
+	<message key="notification.addedReviewer">{$reviewerName} було призначено рецензентом цього подання та надіслано повідомлення електронною поштою.</message>
+	<message key="notification.addedReviewerNoEmail">{$reviewerName} було призначено рецензентом цього подання але не було надіслано повідомлення електронною поштою.</message>
 	<message key="notification.removedReviewer">Рецензента видалено.</message>
 	<message key="notification.addedStageParticipant">Користувача додано як учасника етапу.</message>
 	<message key="notification.type.newAnnouncement">Нове оголошення.</message>
 	<message key="notification.type.reviewAssignment">Відгук очікує на розгляд.</message>
 	<message key="notification.type.auditorRequest">Запит аудиту для "{$file}"</message>
-	<message key="notification.type.allReviewsIn">Всі відгуки зібрані, необхідно рішення для {$stage}.</message>
-	<message key="notification.type.allRevisionsIn">Переглянуто файл для вашого редакційного розгляду в {$stage}.</message>
-	<message key="notification.type.pendingRevisions">Перегляд перегляду {$stage}.</message>
-	<message key="notification.type.pendingRevisions.title">Перегляд внесено до {$stage}.</message>
-	<message key="notification.type.metadataModified">"{$title}'s" метадані були змінені.</message>
-	<message key="notification.type.reviewerComment">Рецензент прокоментував це "{$title}".</message>
-	<message key="notification.signedFile">Файл розглядається.</message>
+	<message key="notification.type.allReviewsIn">Усі рецензії є і необхідно прийняти рішення на етапі {$stage}.</message>
+	<message key="notification.type.allRevisionsIn">Нова версія файлу була завантажена для редакційного розгляду на етапі {$stage}.</message>
+	<message key="notification.type.pendingRevisions">Нові версії розглядаються на етапі {$stage}.</message>
+	<message key="notification.type.pendingRevisions.title">Нові версії надіслані на етап {$stage}.</message>
+	<message key="notification.type.metadataModified">Метадані для «{$title}» було змінено.</message>
+	<message key="notification.type.reviewerComment">Рецензент прокоментував "{$title}".</message>
+	<message key="notification.signedFile">Файл розглянуто.</message>
 	<message key="user.authorization.submissionFile">Поточний користувач не має права доступу до вказаного файлу подання.</message>
-	<message key="user.authorization.invalidSubmission">Невірне подання.</message>
+	<message key="user.authorization.invalidSubmission">Неправильне подання.</message>
 	<message key="user.authorization.invalidRepresentation">Недійсне представлення.</message>
 	<message key="user.authorization.authorRoleMissing">Ви не маєте достатньо прав для перегляду подання. Будь ласка, відредагуйте свій профіль, щоб переконатися, що вам надано відповідні ролі у розділі "Реєстрація як".</message>
 	<message key="user.authorization.submissionAuthor">Поточний користувач не є автором запитуваного подання. Переконайтеся, що ви ввійшли під правильним обліковим записом користувача.</message>
-	<message key="notification.type.queryActivity">Дискусійна діяльність.</message>
-	<message key="notification.type.queryAdded">Дискусія додана.</message>
+	<message key="notification.type.queryActivity">Активність обговорень.</message>
+	<message key="notification.type.queryAdded">Обговорення додано.</message>
 	<message key="notification.type.assignCopyeditors">Призначте літературного редактора, використовуючи посилання «Додати» в списку «Учасники».</message>
 	<message key="notification.type.awaitingCopyedits">Очікується літературне редагування.</message>
 	<message key="notification.type.roundStatusTitle">Статус раунду {$round}</message>
@@ -561,9 +572,9 @@
 	<message key="notification.editedNavigationMenu">Навігаційне меню було успішно оновлено</message>
 	<message key="notification.removedNavigationMenu">Навігаційне меню було успішно видалено</message>
 	
-	
-	
-	
+	<!-- List Handlers -->
+	<message key="list.viewMore">Показати подробиці щодо {$name}</message>
+	<message key="list.viewLess">Приховати подробиці щодо {$name}</message>
 	
 	<!-- Мої додатки-->
 	
@@ -587,207 +598,8 @@
 	<message key="search.searchAllCategories">Шукати в усіх полях</message>
 	<message key="search.searchCategories">Пошукові поля</message>
 	<!-- Not exist in the original file -->
-	<message key="common.warning">Попередження</message>
 	<message key="common.confirm">Підтвердити</message>
-	<message key="common.content">Зміст</message>
-	<message key="common.less">Менше</message>
-	<message key="common.more">Більше</message>
-	<message key="common.reminder">Нагадування</message>
 	<message key="common.signoff">Вийти</message>
-	<message key="common.fileUpload.maxFileSizeStatus"><![CDATA[Цей сервер дозволяє вивантажувати файли розміром не більше {$fileSize}.  Якщо потрібно, будь ласка, зверніться за допомогою до <a href="mailto:{$supportEmail}">{$supportName}</a>.]]></message>
-	<message key="common.invalidFileType">Жодних файлів не виватажено або неприпустимий тип файлу!</message>
-	<message key="common.plugins">Модулі</message>
-	<message key="email.subjectRequired">Будь ласка, вкажіть тему листа.</message>
-	<message key="email.bodyRequired">Будь ласка, заповніть текст листа.</message>
-	<message key="form.confirmSubmit">Ви впевнені, що хочете надіслати цю форму?</message>
-	<message key="form.confirmSubmit.title">Підтвердити</message>
-	<message key="form.emailRequired">Необхідно вказати адресу email.</message>
-	<message key="form.dataHasChanged">Дані цієї форми були змінені. Продовжити?</message>
-	<message key="form.invalidImage">Було вивантажене некоректне зображення. Дозволені формати .png, .gif або .jpg.</message>
-	<message key="navigation.access">Користувачі та ролі</message>
-	<message key="navigation.admin">Адміністрація</message>
-	<message key="navigation.data">Дані</message>
-	<message key="navigation.settings">Налаштування</message>
-	<message key="navigation.submissions">Подання</message>
-	<message key="navigation.system">Система</message>
-	<message key="navigation.setup">Налаштування</message>
-	<message key="navigation.sitemap">Карта сайту</message>
-	<message key="announcement.postedOn">Надіслано {$postDate}</message>
-	<message key="common.noMatches">Немає результатів</message>
-	<message key="navigation.browseByAuthor">За автором</message>
-	<message key="common.accepted">Прийнято</message>
-	<message key="common.acknowledged">Подякувано</message>
-	<message key="common.titleSmallWords">а або але бо в де для з з-під зі і із й коли крізь на не під при про у та там тоді що</message>
-	<message key="common.remote">Віддалена</message>
-	<message key="common.remoteURL">Віддалена адреса URL</message>
+	<message key="common.fileUpload.maxFileSizeStatus"><![CDATA[Цей сервер дозволяє завантажувати файли розміром не більше {$fileSize}.  Якщо потрібно, будь ласка, зверніться за допомогою до <a href="mailto:{$supportEmail}">{$supportName}</a>.]]></message>
 	<message key="common.element">Елемент</message>
-	<message key="common.go">Вперед</message>
-	<message key="navigation.publicMenu">Загальне меню</message>
-	<message key="navigation.userManagement">Керування користувачами</message>
-	<message key="common.billingAddress">Адреса платника (якщо відмінна)</message>
-	<message key="common.finish">Завершити</message>
-	<message key="common.reset">Скинути</message>
-	<message key="common.unread">Непрочитане</message>
-	<message key="common.declined">Відхилені</message>
-	<message key="common.notified">Сповіщені</message>
-	<message key="common.overdue">Прострочені</message>
-	<message key="common.currentStyleSheet">Поточна таблиця стилів</message>
-	<message key="about.description">Опис</message>
-	<message key="common.allDownloads">Усі завантаження</message>
-	<message key="common.navigation.sidebar">Бічна панель</message>
-	<message key="common.navigation.site">Навігація сайту</message>
-	<message key="common.navigation.siteContext">Контекстна навігація сайту</message>
-	<message key="common.navigation.user">Навігація користувача</message>
-	<message key="common.tasks">Завдання</message>
-	<message key="common.list">Список</message>
-	<message key="common.grid">Таблиця</message>
-	<message key="common.name">Ім'я</message>
-	<message key="common.assigned.date">Призначений: {$dateAssigned}</message>
-	<message key="common.available">Наявний</message>
-	<message key="common.error">Помилка</message>
-	<message key="common.notice">Повідомлення</message>
-	<message key="common.captcha.error.missing-input-secret">Перевірка captcha для цього сайту некоректно налаштована. Таємний ключ відсутній.</message>
-	<message key="common.captcha.error.invalid-input-secret">Перевірка captcha для цього сайту некоректно налаштована. Неправильний таємний ключ.</message>
-	<message key="common.captcha.error.missing-input-response">Ви маєте пройти перевірку, яка використовується для запобігання надсилання спаму.</message>
-	<message key="common.captcha.error.invalid-input-response">Ви не пройшли перевірку, яка використовується для запобігання надсилання спаму.</message>
-	<message key="common.closePanel">Закрити панель</message>
-	<message key="common.completed.date">Завершений: {$dateCompleted}</message>
-	<message key="common.confirmed.date">Підтверджений: {$dateConfirmed}</message>
-	<message key="common.contents">Змісти</message>
-	<message key="common.dateHijri">Мусульманський календар</message>
-	<message key="common.designation">Призначення</message>
-	<message key="common.dimensionsInches"><![CDATA[{$width}&Prime;&times;{$height}&Prime; at {$dpi} DPI/PPI]]></message>
-	<message key="common.dimensionsPixels"><![CDATA[{$width}&times;{$height} пікселів]]></message>
-	<message key="common.downloadPdf">Завантажити PDF</message>
-	<message key="common.fileUploaderError">Завантажується завантажувач системних файлів. Якщо він не з'явиться, швидше за все він не підтримується цим браузером.Будь ласка, зверніться до адміністратора за технічною підтримкою.</message>
-	<message key="common.homepageNavigationLabel">Головна</message>
-	<message key="common.itemsPerPage">Елементів на сторінку</message>
-	<message key="common.notes.tooltip">Нотатки (жовтий: є нові нотатки; синій: є переглянуті нотатки; сірий: немає нотаток)</message>
-	<message key="common.notified.date">Сповіщені: {$dateNotified}</message>
-	<message key="common.pageNumber">Сторінка {$pageNumber}</message>
-	<message key="common.percentage">{$percentage}%</message>
-	<message key="common.subtitle.tip">Додатковий підзаголовок з'явиться після двокрапки (:) після основного заголовку.</message>
-	<message key="common.quality">Якість</message>
-	<message key="common.queue.long.active">Усі активні</message>
-	<message key="common.range">{$min}-{$max}</message>
-	<message key="common.readMore">Докладніше</message>
-	<message key="common.readMoreWithTitle">Докладніше про {$title}</message>
-	<message key="common.reminded.date">Надіслано нагадування: {$dateReminded}</message>
-	<message key="common.searchQuery">Пошуковий запит</message>
-	<message key="common.sendEmail">Надіслати лист email</message>
-	<message key="common.startTyping">Розпочати введення з клавіатури</message>
-	<message key="common.subjects">Теми</message>
-	<message key="common.component">Компонент</message>
-	<message key="common.homepageImage.altText">Зображення головної сторінки</message>
-	<message key="common.upload.addFile">Вивантажити файл</message>
-	<message key="common.upload.changeFile">Змінити файл</message>
-	<message key="common.upload.dragFile">Перетягнути файл сюди, щоб розпочати вивантаження</message>
-	<message key="common.viewProfile">Переглянути профіль</message>
-	<message key="common.metric">Метрика</message>
-	<message key="common.count">Лічильник</message>
-	<message key="defaultMetric.title">Усталена метрика</message>
-	<message key="defaultMetric.availableMetrics">Наявні метрики</message>
-	<message key="editor.submissionReview.uploadFile">Вивантажити файл рецензії</message>
-	<message key="editor.submissionReview.uploadAttachment">Вивантажити файл</message>
-	<message key="email.senderName">Ім'я відправника</message>
-	<message key="email.senderEmail">Адреса електронної пошти відправника</message>
-	<message key="form.url.invalid">Вказано неправильну URL-адресу. Будь ласка, перевірте її та спробуйте знову.</message>
-	<message key="form.csrfInvalid">Форма не була надіслана належним чином.</message>
-	<message key="form.fileRequired">Необхідно завантажити файл.</message>
-	<message key="help.previous">Попередні</message>
-	<message key="help.next">Наступні</message>
-	<message key=""><![CDATA[]]></message>
-	
-	<message key="stageParticipants.history.messageSent">Опубліковано нову нотатку.</message>
-	<message key="stageParticipants.notify.chooseMessage">Оберіть стандартне повідомлення для використання або заповніть форму нижче.</message>
-	<message key="stageParticipants.notify.message">Повідомлення</message>
-	<message key="stageParticipants.notify.warning">Будь ласка, переконайтесь, що ви заповнили поле повідомлення та вибрали хоча б одного одержувача.</message>
-	<message key=""><![CDATA[]]></message>
-	<message key="navigation.breadcrumbLabel">Ви тут:</message>
-	<message key="navigation.breadcrumbSeparator">/</message>
-	<message key="navigation.tools">Інструменти</message>
-	<message key="navigation.tools.importExport">Імпорт/Експорт</message>
-	<message key="navigation.tools.statistics">Статистика</message>
-	<message key="navigation.items.shownTotal">{$shown} з {$total} результатів</message>
-	<message key="navigation.skip.main">Перейти до основного змісту</message>
-	<message key="navigation.skip.nav">Перейти до головного меню навігації</message>
-	<message key="navigation.skip.footer">Перейти до нижнього колонтитулу сайту</message>
-	<message key=""><![CDATA[]]></message>
-	<message key="navigation.viewFrontend">Показати сайт</message>
-	<message key="notification.addedAuditor">Аудитора додано.</message>
-	<message key="notification.removedAuditor">Аудитора видалено.</message>
-	<message key="notification.addedQuery">Додано обговорення</message>
-	<message key="notification.reviewAcknowledged">Рецензія позначена як прийнята. Електронний лист не надіслано.</message>
-	<message key="notification.updatedReviewFiles">Файли рецензії оновлено.</message>
-	<message key=""><![CDATA[]]></message>
-	<message key="notification.addedAnnouncementType">Тип оголошень додано.</message>
-	<message key="notification.editedAnnouncementType">Тип оголошень відредаговано.</message>
-	<message key="notification.removedAnnouncementType">Тип оголошень видалено.</message>
-	<message key="notification.addedAnnouncement">Оголошення додано.</message>
-	<message key="notification.editedAnnouncement">Оголошення відредаговано.</message>
-	<message key="notification.removedAnnouncement">Оголошення вилучено.</message>
-	<message key="notification.addedAuthor">Автора додано.</message>
-	<message key="notification.editedAuthor">Автора відредаговано.</message>
-	<message key="notification.addedNote">Нотатка опублікована.</message>
-	<message key="notification.removedNote">Нотатка видалена</message>
-	<message key="notification.removedFile">Файл видалено.</message>
-	<message key="notification.removedSubmission">Матеріал видалено.</message>
-	<message key="notification.sentNotification">Повідомлення відправлене.</message>
-	<message key=""><![CDATA[]]></message>
-	<message key="notification.savedSubmissionMetadata">Метадані матеріалу збережені.</message>
-	<message key="search.advancedFilters">Додаткові фільтри</message>
-	<message key="search.advancedSearchLess">Приховати додаткові параметри пошуку</message>
-	<message key="search.cli.rebuildIndex.clearingIndex">Очистити індекс</message>
-	<message key="search.cli.rebuildIndex.done">виконано</message>
-	<message key="search.cli.rebuildIndex.error">помилка</message>
-	<message key="search.cli.rebuildIndex.result">{$numIndexed} статей проіндексовано</message>
-	<message key="search.deleteFilter">Видалити</message>
-	<message key="search.indexTermsLong">Усі поля термінів для індексування</message>
-	<message key=""><![CDATA[]]></message>
-	<message key=""><![CDATA[]]></message>
-	<message key="context.path">Шлях</message>
-	<message key="review.ensuringBlindReview">Забезпечення сліпого рецензування</message>
-	<message key="grid.action.showReviewPolicy">Перегляньте поточні правила рецензування</message>
-	<message key="grid.action.deleteNotification">Видалити завдання</message>
-	<message key="grid.action.markNew">Позначити як непрочитане</message>
-	<message key="grid.action.markRead">Позначити як прочитане</message>
-	<message key="dashboard.tasks">Завдання</message>
-	<message key="dashboard.myQueue">Мої справи</message>
-	<message key="review.blindPeerReview"><![CDATA[<p>Щоб забезпечити чесність сліпого рецензування для цього видання, необхідно докласти усіх зусиль, щоб автори і рецензенти нічого не знали один про одного. Для цього автори, редактори і рецензенти (ті, хто завантажує документи як частину своєї рецензії) мають перевірити, чи були виконані усі наступні дії щодо тексту та властивостей файлу:</p>
-			<ul><li>Автори документа видалили свої імена з тексту, використовуючи «Автор» і рік в бібліографічних посиланнях та виносках, замість імен авторів, назви статті тощо</li>
-			<li>В документах Microsoft Office  ідентифікатор автора також слід видалити з властивостей файлу  (див. меню «Файл» в Word), обираючи пункти в такій послідовності, починаючи з меню «Файл» в головному меню додатку Microsoft: Файл &gt; Зберегти як &gt; Інструменти (або Параметри в Mac) &gt; Безпека &gt; Видаляти особисті відомості з цього файлу при збереженні &gt; Зберегти.</li>
-			<li>В файлах PDF також слід видалити імена авторів із властивостей документа, розташованих у меню Файл в головному меню програми Adobe Acrobat.</li>
-		</ul>]]></message>
-	<message key="reviewer.submission.reviewSchedule">Графік рецензування</message>
-	<message key="reviewer.submission.reviewRequestDate">Запит редактора</message>
-	<message key="reviewer.submission.responseDueDate">Дата отримання відповіді на запит</message>
-	<message key="reviewer.submission.reviewDueDate">Очікувана дата рецензування</message>
-	<message key="submission.task.responseDueDate">Дата підтвердження отримання рецензії</message>
-	<message key="navigation.goBack">Повернутися назад</message>
-	<message key="notification.addedReviewer">Рецензента додано.</message>
-	<message key="notification.removedReviewer">Рецензента видалено</message>
-	<message key="notification.addedStageParticipant">Користувача додано як учасника етапу.</message>
-	<message key="notification.type.newAnnouncement">Нове оголошення.</message>
-	<message key="notification.type.reviewAssignment">Очікування рецензії.</message>
-	<message key="notification.type.auditorRequest">Запит аудита для "{$file}"</message>
-	<message key="notification.type.allReviewsIn">Усі рецензії є і необхідно прийняти рішення на етапі {$stage}.</message>
-	<message key="notification.type.allRevisionsIn">Нова версія файлу була завантажена для редакційного розгляду на етапі {$stage}.</message>
-	<message key="notification.type.pendingRevisions">Нові версії розглядаються на етапі {$stage}.</message>
-	<message key="notification.type.pendingRevisions.title">Нові версії надіслані на етап {$stage}.</message>
-	<message key="notification.type.metadataModified">Метадані для «{$title}» було змінено.</message>
-	<message key="notification.type.reviewerComment">Рецензент прокоментував «{$title}».</message>
-	<message key="notification.signedFile">Файл розглянуто.</message>
-	<message key="user.authorization.submissionFile">Цей користувач не має права доступу до файлу вказаного матеріалу.</message>
-	<message key="user.authorization.invalidSubmission">Неправильний матеріал.</message>
-	<message key="user.authorization.invalidRepresentation">Неправильне представлення.</message>
-	<message key="navigation.archives">Архіви</message>
-	<message key="user.authorization.authorRoleMissing">Ви не маєте достатньо прав для перегляду матеріалу. Будь ласка, відредагуйте свій профіль, щоб переконатися, що вам надано відповідні ролі в розділі "Реєстрація як".</message>
-	<message key="user.authorization.submissionAuthor">Цей користувач не є автором матеріалу, на який був запит. Переконайтеся, що ви увійшли з правильного облікового запису користувача.</message>
-	<message key="notification.type.queryActivity">Активність обговорень.</message>
-	<message key="notification.type.queryAdded">Обговорення додано.</message>
-	<message key="notification.type.assignCopyeditors">Призначте літературного редактора, використовуючи посилання «Додати» в списку «Учасники».</message>
-	<message key="notification.type.awaitingCopyedits">Очікується літературне редагування.</message>
-	<message key="notification.type.roundStatusTitle">Статус раунду {$round}</message>
-	<message key="search.SearchFor">Шукати</message>
-	<message key="about.guidelines">Довідники</message>
 </locale>
