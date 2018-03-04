@@ -519,7 +519,7 @@
 	<message key="manager.navigationMenus.submissions.description">Посилання на сторінку, де відображаються інструкції щодо подання матеріалів.</message>
 	<message key="manager.navigationMenus.current.description">Посилання на поточний випуск.</message>
 	<message key="manager.navigationMenus.archives.description">Посилання на архів випусків.</message>
-+	<message key="manager.navigationMenus.announcements.description">Посилання на сторінку, котра показує оголошення.</message>
+	<message key="manager.navigationMenus.announcements.description">Посилання на сторінку, котра показує оголошення.</message>
 	<message key="manager.navigationMenus.announcements.conditionalWarning">Це посилання відображатиметься, лише якщо ви увімкнули оголошення в Налаштування > Веб-сайт.</message>
 	<message key="manager.navigationMenus.login.description">Посилання на сторінку входу користувача в систему.</message>
 	<message key="manager.navigationMenus.register.description">Посилання на сторінку реєстрації користувача.</message>
@@ -549,7 +549,7 @@
 	<message key="manager.reviewerSearch.form.interests.instructions">Наукові інтереси рецензента(введіть для пошуку спільних інтересів)</message>
 	<message key="manager.reviewerSearch.form.previousReviewRounds">Рецензенти з попередніх раундів рецензування цього подання</message>
 
-	<message key="manager.setup.citationAssistant">Помічник розмітки цитат</message>
+		<message key="manager.setup.citationAssistant">Помічник розмітки цитат</message>
 	<message key="manager.setup.citationFilterParser">Екстракція цитат</message>
 	<message key="manager.setup.citationFilterParserDescription"><![CDATA[<p>Для того, щоб знайти і перевірити за базою даних коректність цитат, спочатку їх потрібно розбити на фрагменти машиночитаних метаданих: з цитат у тексті, отриманому від автора, повинні бути екстраговані такі поля, як назва, видавець, дата публікації тощо. У цьому процесі можуть допомогти шлюзи до зовнішніх веб-сервісів. Ви можете додати один або декілька шлюзів засобами розміщеної нижче кнопки "Додати об'єкт". Деякі з цих шлюзів можуть потребувати додаткових налаштувань; ви будете повідомлені, якщо це так.</p>
 		<p>Для редагування або видалення шлюзу потрібно натиснути на зображення шестерінки поруч з ним.</p>]]></message>
