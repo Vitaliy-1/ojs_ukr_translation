@@ -9,9 +9,6 @@
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings for the uk_UA (Українська) locale.
-  *
-  * Translated by Denys Solovianenko, 2011
-  * V. I. Vernadsky National Library of Ukraine
   -->
 
 <locale name="uk_UA" full_name="Українська">
@@ -201,7 +198,6 @@
 	<message key="submission.event.confirmDeleteLogEntry">Ви впевнені, що хочете видалити цей запис з журналу подій?</message>
 	<message key="submission.event.deleteLogEntry">Видалити запис журналу</message>
 	<message key="submission.event.submissionSubmitted">Початкове надсилання подання завершено.</message>
-	<message key="submission.event.fileUploaded">Файл "{$name}" (file ID {$fileId}-{$fileRevision}) був вивантажений.</message>
 	<message key="submission.event.fileRevised">Версія "{$name}" (file ID {$fileId}-{$fileRevision}) була вивантажена.</message>
 	<message key="submission.event.general.metadataUpdated">Метадані подання оновлені</message>
 	<message key="submission.event.general.suppFileUpdated">Супровідний файл подання оновлений</message>
@@ -428,7 +424,7 @@
 	<message key="submission.upload.uploadLibraryFile">Завантажити файл бібліотеки</message>
 	<message key="submission.upload.libraryCategory">Категорія документу подання</message>
 
-	<!-- завантаження файлів -->
+	<!-- Завантаження файлів -->
 	<message key="submission.upload.finalDraft">Завантажити файл</message>
 	<message key="submission.upload.copyeditedVersion">Завантажити файл після літературного редагування</message>
 	<message key="submission.upload.fairCopy">Завантажити остаточний файл</message>
@@ -531,7 +527,6 @@
 	<message key="notification.type.editorDecisionPendingRevisions">Необхідна нова версія.</message>
 	<message key="notification.type.editorDecisionResubmit">Повторно надіслати на рецензування.</message>
 	<message key="notification.type.editorDecisionDecline">Подання відхилено.</message>
-	<message key="notification.type.editorDecisionSendToProduction">Розпочато процес верстки.</message>
 	<message key="notification.uploadedResponse">Відповідь завантажено.</message>
 
 	<message key="notification.type.editorAssignment">Редактор повинен бути призначений перед початком рецензування. Будь ласка, додайте редактора, використовуючи список "Учасники".</message>
@@ -629,7 +624,10 @@
 	<message key="submission.list.currentStage">Зараз на етапі {$stage}.</message>
 
 	<!-- Not in English anymore -->
+	<message key="submission.list.filter">Фільтри</message> <!-- removed on master branch after 3.1.0-1 -->
+	<message key="submission.event.fileUploaded">Файл "{$name}" (file ID {$fileId}-{$fileRevision}) був вивантажений.</message>
 	<message key="workflow.review.externalReview">Рецензування</message>
+	<message key="notification.type.editorDecisionSendToProduction">Розпочато процес верстки.</message>
 
 	<message key="submission.citations.editor.citationlist.deleteCitationConfirmation">Ви впевнені, що хочете видалити цю цитату?</message>
 	<message key="submission.citations.editor.citationlist.errorDeletingCitation">Під час видалення цитати сталася помилка. Будь ласка, повідомте про цю помилку розробникам.</message>
