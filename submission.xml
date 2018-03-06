@@ -201,8 +201,8 @@
 	<message key="submission.event.confirmDeleteLogEntry">Ви впевнені, що хочете видалити цей запис з журналу подій?</message>
 	<message key="submission.event.deleteLogEntry">Видалити запис журналу</message>
 	<message key="submission.event.submissionSubmitted">Початкове надсилання подання завершено.</message>
-	<message key="submission.event.fileUploaded">Файл "{$name}" (file ID {$fileId}-{$fileRevision}) був вивантажений.</message>
-	<message key="submission.event.fileRevised">Версія "{$name}" (file ID {$fileId}-{$fileRevision}) була вивантажена.</message>
+
+	<message key="submission.event.fileRevised">Версія "{$name}" (file ID {$fileId}-{$fileRevision}) була завантажена.</message>
 	<message key="submission.event.general.metadataUpdated">Метадані подання оновлені</message>
 	<message key="submission.event.general.suppFileUpdated">Супровідний файл подання оновлений</message>
 	<message key="submission.event.reviewer.reviewAcceptedByProxy">Від імені рецензента призначення було прийняте</message>
@@ -297,7 +297,7 @@
 	<message key="submission.notes.editNote">Редагувати нотатку</message>
 	<message key="submission.notes.expandNotes">Розгорнути нотатки</message>
 	<message key="submission.notes.noSubmissionNotes">Немає нотаток</message>
-	<message key="submission.notes.removeUploadedFile">Видалити вивантажений файл</message>
+	<message key="submission.notes.removeUploadedFile">Видалити завантажений файл</message>
 	<message key="submission.notes">Нотатки подання</message>
 	<message key="submission.notes.updateNote">Оновити нотатку</message>
 	<message key="submission.notes.viewNotes">Дивитися нотатки</message>
@@ -419,7 +419,7 @@
 	<message key="submission.upload.noGenre">Відсутній або неправильний компонент!</message>
 	<message key="submission.upload.invalidUserGroup">Відсутня або неправильна група користувачів!</message>
 	<message key="submission.upload.possibleRevision">Виявлено можливе дублювання або нова версія</message>
-	<message key="submission.upload.possibleRevisionDescription"><![CDATA[Назва вивантаженого файлу співпадає з назвою раніше вивантаженого файлу, "{$revisedFileName}." Цей файл має замінити "{$revisedFileName}"? Якщо так, то виберіть нижчевказаний файл. В іншому випадку перед продовженням виберіть "Це не нова версія існуючого файлу".]]></message>
+	<message key="submission.upload.possibleRevisionDescription"><![CDATA[Назва завантаженого файлу співпадає з назвою раніше завантаженого файлу, "{$revisedFileName}." Цей файл має замінити "{$revisedFileName}"? Якщо так, то виберіть нижчевказаний файл. В іншому випадку перед продовженням виберіть "Це не нова версія існуючого файлу".]]></message>
 	<message key="submission.upload.selectMandatoryFileToRevise">Будь ласка, виберіть файл, який хочете замінити.</message>
 	<message key="submission.upload.selectOptionalFileToRevise">Якщо ви завантажуєте нову версію існуючого файлу, будь-ласка, вкажіть для якого файлу.</message>
 	<message key="submission.upload.uploadNewFile">Це не нова версія існуючого файлу</message>
@@ -433,7 +433,7 @@
 	<message key="submission.upload.copyeditedVersion">Завантажити файл після літературного редагування</message>
 	<message key="submission.upload.fairCopy">Завантажити остаточний файл</message>
 	<message key="submission.upload.uploadFiles">Завантажити файли</message>
-	<message key="submission.upload.response.description">Після рецензування призначеного файлу, запишіть усі коментарі про файл нижче, і/або вивантажте анотовану копію в файлі (або інший файл).</message>
+	<message key="submission.upload.response.description">Після рецензування призначеного файлу, запишіть усі коментарі про файл нижче, і/або завантажте анотовану копію в файлі (або інший файл).</message>
 	<message key="submission.upload.productionReady">Завантажити файл для верстки</message>
 	<message key="submission.upload.proof">Завантажити файл, готовий для верстки</message>
 	<message key="submission.upload.noAvailableReviewFiles">Наразі немає файлів для виправлення.</message>
@@ -531,7 +531,7 @@
 	<message key="notification.type.editorDecisionPendingRevisions">Необхідна нова версія.</message>
 	<message key="notification.type.editorDecisionResubmit">Повторно надіслати на рецензування.</message>
 	<message key="notification.type.editorDecisionDecline">Подання відхилено.</message>
-	<message key="notification.type.editorDecisionSendToProduction">Розпочато процес верстки.</message>
+
 	<message key="notification.uploadedResponse">Відповідь завантажено.</message>
 
 	<message key="notification.type.editorAssignment">Редактор повинен бути призначений перед початком рецензування. Будь ласка, додайте редактора, використовуючи список "Учасники".</message>
