@@ -29,7 +29,7 @@
 	<message key="submission.submit.whatNext">Що робити далі?</message>
 	<message key="submission.submit.whatNext.forNow">Зараз ви можете:</message>
 	<message key="submission.submit.whatNext.review">Переглянути це подання</message>
-	<message key="submission.submit.whatNext.create">Створити нове подання</message>
+	<message key="submission.submit.whatNext.create">Свторити нове подання</message>
 	<message key="submission.submit.whatNext.return">Повернутися в особистий кабінет</message>
 	<message key="submission.submit.extendedMetadata">Розширені метадані</message>
 
@@ -365,7 +365,7 @@
 	<message key="submission.titleAndAbstract">Назва та анотація</message>
 	<message key="submission.type.tip"><![CDATA[Тип подання зазвичай є чимось з "малюнок", "текст" або інших типів мультимедіа, зокрема "програмне забезпечення" або "інтерактивний". Будь-ласка, виберіть найбільш відповідний для вашого подання тип. Приклади можна знайти на сторінці <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type</a>]]></message>
 	<message key="submission.underway">Прогрес</message>
-	<message key="submission.uploadFileTo">Завантажити файл у</message>
+	<message key="submission.uploadFileTo">завантажити файл у</message>
 	<message key="submission.createRemote">Створити віддалене</message>
 	<message key="submission.viewMetadata">Перегляд метаданих</message>
 	<message key="submission.views">переглядів</message>
@@ -423,19 +423,19 @@
 	<message key="submission.upload.selectMandatoryFileToRevise">Будь ласка, виберіть файл, який хочете замінити.</message>
 	<message key="submission.upload.selectOptionalFileToRevise">Якщо ви завантажуєте нову версію існуючого файлу, будь-ласка, вкажіть для якого файлу.</message>
 	<message key="submission.upload.uploadNewFile">Це не нова версія існуючого файлу</message>
-	<message key="submission.upload.userGroup">Завантажити цей файл у моїй ролі як...</message>
+	<message key="submission.upload.userGroup">завантажити цей файл у моїй ролі як...</message>
 	<message key="submission.upload.userGroupDescription">Якщо ви надсилаєте відредагований том, ви маєте завантажити всі розділи тому окремо під вашою роллю редактора тому.</message>
-	<message key="submission.upload.uploadLibraryFile">Завантажити файл бібліотеки</message>
+	<message key="submission.upload.uploadLibraryFile">завантажити файл бібліотеки</message>
 	<message key="submission.upload.libraryCategory">Категорія документу подання</message>
 
 	<!-- завантаження файлів -->
-	<message key="submission.upload.finalDraft">Завантажити файл</message>
-	<message key="submission.upload.copyeditedVersion">Завантажити файл після літературного редагування</message>
-	<message key="submission.upload.fairCopy">Завантажити остаточний файл</message>
-	<message key="submission.upload.uploadFiles">Завантажити файли</message>
+	<message key="submission.upload.finalDraft">завантажити файл</message>
+	<message key="submission.upload.copyeditedVersion">завантажити файл після літературного редагування</message>
+	<message key="submission.upload.fairCopy">завантажити остаточний файл</message>
+	<message key="submission.upload.uploadFiles">завантажити файли</message>
 	<message key="submission.upload.response.description">Після рецензування призначеного файлу, запишіть усі коментарі про файл нижче, і/або завантажте анотовану копію в файлі (або інший файл).</message>
-	<message key="submission.upload.productionReady">Завантажити файл для верстки</message>
-	<message key="submission.upload.proof">Завантажити файл, готовий для верстки</message>
+	<message key="submission.upload.productionReady">завантажити файл для верстки</message>
+	<message key="submission.upload.proof">завантажити файл, готовий для верстки</message>
 	<message key="submission.upload.noAvailableReviewFiles">Наразі немає файлів для виправлення.</message>
 	
 	<!-- Ключі статуса раунду рецензування -->
@@ -507,14 +507,14 @@
 	<message key="editor.submission.addAuditorError">Під час спроби призначити аудитора сталася помилка. Будь ласка, спробуйте ще раз.</message>
 	
 	<!-- Журнал подій подання -->
-	<message key="submission.event.fileUploaded">Файл "{$originalFileName}" був завантажений для подання {$submissionId} користувачем {$username}.</message>
+	<message key="submission.event.fileUploaded">Файл "{$originalFileName}" був відвантажений для подання {$submissionId} користувачем {$username}.</message>
 	<message key="submission.event.fileDeleted">Файл "{$originalFileName}" був видалений з подання {$submissionId} користувачем {$username}.</message>
 	<message key="submission.event.revisionUploaded">Нова версія файлу "{$originalFileName}" була відвантажена для подання {$submissionId} користувачем {$username}.</message>
 	<message key="submission.event.revisionDeleted">Версія файлу "{$originalFileName}" була видалена з подання {$submissionId} користувачем {$username}.</message>
 	<message key="submission.event.lastRevisionDeleted">У файлу "{$title}" остання версія була видалена користувачем {$username}.</message>
 	<message key="submission.event.fileAuditorAdded">"{$name}" ({$username}) був доданий як аудитор для файлу "{$file}."</message>
 	<message key="submission.event.fileAuditorCleared">"{$name}" ({$username}) був видалений як аудитор для файлу "{$file}."</message>
-	<message key="submission.event.fileAuditUploaded">"{$name}" ({$username}) завершив аудит і завантажив "{$file}."</message>
+	<message key="submission.event.fileAuditUploaded">"{$name}" ({$username}) завершив аудит і відвантажив "{$file}."</message>
 	<message key="submission.event.signoffSignoff">"{$name}" ({$username}) остаточно схвалив новий випуск для "{$file}."</message>
 	<message key="submission.event.proofsApproved">"{$name}" ({$username}) схвалив коректури для "{$formatName}."</message>
 	<message key="submission.overview">Огляд подання</message>
