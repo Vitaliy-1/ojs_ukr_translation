@@ -12,6 +12,7 @@
   -->
 
 <locale name="uk_UA" full_name="Українська">
+	<!-- Використовується під час рецензування -->
 	<message key="reviewer.reviewSteps.request">1. Запит</message>
 	<message key="reviewer.reviewSteps.guidelines">2. Довідник</message>
 	<message key="reviewer.reviewSteps.download">3. Завантажити та рецензувати</message>

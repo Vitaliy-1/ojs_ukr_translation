@@ -73,6 +73,7 @@
 	<message key="rt.admin.searches.edit.editSearch">Редагувати пошук</message>
 	<message key="rt.admin.selectedVersion">Споріднені об'єкти</message>
 	<message key="rt.admin.settings.abstract">Анотація (представляє анотацію роботи).</message>
+	<message key="rt.admin.settings.viewReviewPolicy">Дивитися політику рецензування</message>
 	<message key="rt.admin.settings.authorBio">Про автора (представляє коротку біографію, надану автором).</message>
 	<message key="rt.admin.settings.captureCite">Як цитувати роботу (надає бібліографічний опис роботи).</message>
 	<message key="rt.admin.settings.defineTerms">Визначення термінів (дозволяє читачам подвійним натисканням на словах у тексті проводити пошук слів у словнику).</message>
@@ -179,5 +180,4 @@
 	<message key="rt.version.title">Назва</message>
 	<message key="rt.version">Версія</message>
 	<message key="rt.viewMetadata">Індексні метадані</message>
-	<message key="rt.admin.settings.viewReviewPolicy">Дивитися політику рецензування</message>
 </locale>
