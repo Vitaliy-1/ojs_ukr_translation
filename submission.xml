@@ -200,7 +200,6 @@
 	<message key="submission.event.submissionSubmitted">Початкове надсилання подання завершено.</message>
 
 	<message key="submission.event.fileRevised">Версія "{$name}" (file ID {$fileId}-{$fileRevision}) була завантажена.</message>
-
 	<message key="submission.event.general.metadataUpdated">Метадані подання оновлені</message>
 	<message key="submission.event.general.suppFileUpdated">Супровідний файл подання оновлений</message>
 	<message key="submission.event.reviewer.reviewAcceptedByProxy">Від імені рецензента призначення було прийняте</message>
@@ -561,7 +560,7 @@
 	<!--  рецензування -->
 	<message key="submission.reviewForm">Форма рецензування</message>
 	<message key="submission.reviewFormResponse">Заповнена форма рецензування</message>
-	<message key="grid.action.createReviewFormElement">Свторити новий елемент форми рецензії</message>
+	<message key="grid.action.createReviewFormElement">Створити новий елемент форми рецензії</message>
 	<message key="grid.action.editMetadata">Редагувати метадані</message>
 
 	<!-- Права -->
@@ -627,10 +626,7 @@
 	<message key="submission.list.currentStage">Зараз на етапі {$stage}.</message>
 
 	<!-- Not in English anymore -->
-	<message key="submission.list.filter">Фільтри</message> <!-- removed on master branch after 3.1.0-1 -->
-	<message key="submission.event.fileUploaded">Файл "{$name}" (file ID {$fileId}-{$fileRevision}) був вивантажений.</message>
 	<message key="workflow.review.externalReview">Рецензування</message>
-	<message key="notification.type.editorDecisionSendToProduction">Розпочато процес верстки.</message>
 
 	<message key="submission.citations.editor.citationlist.deleteCitationConfirmation">Ви впевнені, що хочете видалити цю цитату?</message>
 	<message key="submission.citations.editor.citationlist.errorDeletingCitation">Під час видалення цитати сталася помилка. Будь ласка, повідомте про цю помилку розробникам.</message>
