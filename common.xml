@@ -288,6 +288,7 @@
 	<message key="common.plugins">Плагіни</message>
 	<message key="common.metric">Метрика</message>
 	<message key="common.count">Підрахунок</message>
+	<message key="common.publicAccess">Публічний доступ</message>
 	<message key="debug.databaseQueries">Кількість запитів до бази даних</message>
 	<message key="debug.executionTime">Сторінка створена за</message>
 	<message key="debug.memoryUsage">Використання пам'яті</message>

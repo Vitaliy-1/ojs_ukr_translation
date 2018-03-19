@@ -145,7 +145,7 @@
 	<message key="submission.authorWithAffiliation">{$name}, {$affiliation}</message>
 	<message key="submission.shortAuthor">{$author} та ін.</message>
 	<message key="submission.mySubmissions">За моїм авторством</message>
-	<message key="submission.addFile">завантажити файл</message>
+	<message key="submission.addFile">Завантажити файл</message>
 	<message key="submission.agencies">Агенції</message>
 	<message key="submission.abstractViews">Переглядів анотації</message>
 	<message key="submission.accepted">Прийнято</message>
@@ -198,7 +198,8 @@
 	<message key="submission.event.confirmDeleteLogEntry">Ви впевнені, що хочете видалити цей запис з журналу подій?</message>
 	<message key="submission.event.deleteLogEntry">Видалити запис журналу</message>
 	<message key="submission.event.submissionSubmitted">Початкове надсилання подання завершено.</message>
-	<message key="submission.event.fileRevised">Версія "{$name}" (file ID {$fileId}-{$fileRevision}) була вивантажена.</message>
+
+	<message key="submission.event.fileRevised">Версія "{$name}" (file ID {$fileId}-{$fileRevision}) була завантажена.</message>
 	<message key="submission.event.general.metadataUpdated">Метадані подання оновлені</message>
 	<message key="submission.event.general.suppFileUpdated">Супровідний файл подання оновлений</message>
 	<message key="submission.event.reviewer.reviewAcceptedByProxy">Від імені рецензента призначення було прийняте</message>
@@ -273,7 +274,7 @@
 	<message key="submission.layout">Верстка</message>
 	<message key="submission.layout.layoutVersion">Версія верстки</message>
 	<message key="submission.layout.newGalley">Створити нову гранку</message>
-	<message key="submission.layout.newSupplementaryFile">завантажити новий супровідний файл</message>
+	<message key="submission.layout.newSupplementaryFile">Завантажити новий супровідний файл</message>
 	<message key="submission.layout.noStyleFile">Для цієї гранки не було додано файлу таблиці стилів.</message>
 	<message key="submission.layout.supplementaryFiles">Перегляд супровідного файлу</message>
 	<message key="submission.layout.viewingGalley">Перегляд гранки подання</message>
@@ -293,7 +294,7 @@
 	<message key="submission.notes.editNote">Редагувати нотатку</message>
 	<message key="submission.notes.expandNotes">Розгорнути нотатки</message>
 	<message key="submission.notes.noSubmissionNotes">Немає нотаток</message>
-	<message key="submission.notes.removeUploadedFile">Видалити вивантажений файл</message>
+	<message key="submission.notes.removeUploadedFile">Видалити завантажений файл</message>
 	<message key="submission.notes">Нотатки подання</message>
 	<message key="submission.notes.updateNote">Оновити нотатку</message>
 	<message key="submission.notes.viewNotes">Дивитися нотатки</message>
@@ -351,8 +352,8 @@
 	<message key="submission.submit.submissionFiles">Файли подання</message>
 	<message key="submission.submit.dependentFiles">Залежні файли</message>
 	<message key="submission.manageDependentFiles">Керування залежними файлами</message>
-	<message key="submission.upload.dependent">завантажити залежний файл</message>
-	<message key="submission.upload.query">завантажити файл обговорення</message>
+	<message key="submission.upload.dependent">Завантажити залежний файл</message>
+	<message key="submission.upload.query">Завантажити файл обговорення</message>
 	<message key="submission.summary">Резюме</message>
 	<message key="submission.supplementaryFiles">Супровідні файли</message>
 	<message key="submission.supportingAgencies">Спонсори</message>
@@ -405,8 +406,8 @@
 	<message key="submission.status.declined">Відхилено</message>
 	<message key="submission.status.published">Опубліковано</message>
 
-	<message key="submission.submit.uploadStep">1. завантажити файл</message>
-	<message key="submission.submit.uploadSubmissionFile">завантажити файл подання</message>
+	<message key="submission.submit.uploadStep">1. Завантажити файл</message>
+	<message key="submission.submit.uploadSubmissionFile">Завантажити файл подання</message>
 	<message key="submission.submit.metadataStep">2. Переглянути деталі</message>
 	<message key="submission.submit.finishingUpStep">3. Підтвердити</message>
 	<message key="submission.submit.fileNameRequired">Ви маєте ввести ім'я файлу для цього файлу</message>
@@ -415,7 +416,7 @@
 	<message key="submission.upload.noGenre">Відсутній або неправильний компонент!</message>
 	<message key="submission.upload.invalidUserGroup">Відсутня або неправильна група користувачів!</message>
 	<message key="submission.upload.possibleRevision">Виявлено можливе дублювання або нова версія</message>
-	<message key="submission.upload.possibleRevisionDescription"><![CDATA[Назва вивантаженого файлу співпадає з назвою раніше вивантаженого файлу, "{$revisedFileName}." Цей файл має замінити "{$revisedFileName}"? Якщо так, то виберіть нижчевказаний файл. В іншому випадку перед продовженням виберіть "Це не нова версія існуючого файлу".]]></message>
+	<message key="submission.upload.possibleRevisionDescription"><![CDATA[Назва завантаженого файлу співпадає з назвою раніше завантаженого файлу, "{$revisedFileName}." Цей файл має замінити "{$revisedFileName}"? Якщо так, то виберіть нижчевказаний файл. В іншому випадку перед продовженням виберіть "Це не нова версія існуючого файлу".]]></message>
 	<message key="submission.upload.selectMandatoryFileToRevise">Будь ласка, виберіть файл, який хочете замінити.</message>
 	<message key="submission.upload.selectOptionalFileToRevise">Якщо ви завантажуєте нову версію існуючого файлу, будь-ласка, вкажіть для якого файлу.</message>
 	<message key="submission.upload.uploadNewFile">Це не нова версія існуючого файлу</message>
@@ -429,7 +430,7 @@
 	<message key="submission.upload.copyeditedVersion">Завантажити файл після літературного редагування</message>
 	<message key="submission.upload.fairCopy">Завантажити остаточний файл</message>
 	<message key="submission.upload.uploadFiles">Завантажити файли</message>
-	<message key="submission.upload.response.description">Після рецензування призначеного файлу, запишіть усі коментарі про файл нижче, і/або вивантажте анотовану копію в файлі (або інший файл).</message>
+	<message key="submission.upload.response.description">Після рецензування призначеного файлу, запишіть усі коментарі про файл нижче, і/або завантажте анотовану копію в файлі (або інший файл).</message>
 	<message key="submission.upload.productionReady">Завантажити файл для верстки</message>
 	<message key="submission.upload.proof">Завантажити файл, готовий для верстки</message>
 	<message key="submission.upload.noAvailableReviewFiles">Наразі немає файлів для виправлення.</message>
@@ -498,14 +499,14 @@
 	<message key="reviewer.submission.reviewFiles">Файли для рецензування</message>
 	<message key="submission.submit.currentFile">Поточний файл</message>
 	<message key="submission.finalDraft">Файли чернеток</message>
-	
+
 	<!-- Ключі аудитора -->
 	<message key="editor.submission.addAuditorError">Під час спроби призначити аудитора сталася помилка. Будь ласка, спробуйте ще раз.</message>
-	
+
 	<!-- Журнал подій подання -->
 	<message key="submission.event.fileUploaded">Файл "{$originalFileName}" був завантажений для подання {$submissionId} користувачем {$username}.</message>
 	<message key="submission.event.fileDeleted">Файл "{$originalFileName}" був видалений з подання {$submissionId} користувачем {$username}.</message>
-	<message key="submission.event.revisionUploaded">Нова версія файлу "{$originalFileName}" була відвантажена для подання {$submissionId} користувачем {$username}.</message>
+	<message key="submission.event.revisionUploaded">Нова версія файлу "{$originalFileName}" була завантажена для подання {$submissionId} користувачем {$username}.</message>
 	<message key="submission.event.revisionDeleted">Версія файлу "{$originalFileName}" була видалена з подання {$submissionId} користувачем {$username}.</message>
 	<message key="submission.event.lastRevisionDeleted">У файлу "{$title}" остання версія була видалена користувачем {$username}.</message>
 	<message key="submission.event.fileAuditorAdded">"{$name}" ({$username}) був доданий як аудитор для файлу "{$file}."</message>
@@ -527,13 +528,14 @@
 	<message key="notification.type.editorDecisionPendingRevisions">Необхідна нова версія.</message>
 	<message key="notification.type.editorDecisionResubmit">Повторно надіслати на рецензування.</message>
 	<message key="notification.type.editorDecisionDecline">Подання відхилено.</message>
+
 	<message key="notification.uploadedResponse">Відповідь завантажено.</message>
 
 	<message key="notification.type.editorAssignment">Редактор повинен бути призначений перед початком рецензування. Будь ласка, додайте редактора, використовуючи список "Учасники".</message>
 	<message key="grid.reviewAttachments.title">Файли, прикріплені рецензентом</message>
 	<message key="grid.reviewAttachments.send.title">Виберіть файли рецензії, щоб надіслати їх автору (авторам)</message>
 	<message key="submission.productionReady">Книга доступна</message>
-	<message key="submission.review.uploadRevisionToRound">завантажити нову версію файлу</message>
+	<message key="submission.review.uploadRevisionToRound">Завантажити нову версію файлу</message>
 	<message key="log.review.reviewerAssigned">{$reviewerName} був призначений для проведення {$round} раунду рецензування подання {$submissionId}.</message>
 	<message key="submission.review.status.awaitingResponse">Очікування відповіді від рецензента.</message>
 	<message key="submission.review.status.declined">Рецензент відхилив цей запит на рецензію.</message>
@@ -558,7 +560,7 @@
 	<!--  рецензування -->
 	<message key="submission.reviewForm">Форма рецензування</message>
 	<message key="submission.reviewFormResponse">Заповнена форма рецензування</message>
-	<message key="grid.action.createReviewFormElement">Свторити новий елемент форми рецензії</message>
+	<message key="grid.action.createReviewFormElement">Створити новий елемент форми рецензії</message>
 	<message key="grid.action.editMetadata">Редагувати метадані</message>
 
 	<!-- Права -->
@@ -624,10 +626,7 @@
 	<message key="submission.list.currentStage">Зараз на етапі {$stage}.</message>
 
 	<!-- Not in English anymore -->
-	<message key="submission.list.filter">Фільтри</message> <!-- removed on master branch after 3.1.0-1 -->
-	<message key="submission.event.fileUploaded">Файл "{$name}" (file ID {$fileId}-{$fileRevision}) був вивантажений.</message>
 	<message key="workflow.review.externalReview">Рецензування</message>
-	<message key="notification.type.editorDecisionSendToProduction">Розпочато процес верстки.</message>
 
 	<message key="submission.citations.editor.citationlist.deleteCitationConfirmation">Ви впевнені, що хочете видалити цю цитату?</message>
 	<message key="submission.citations.editor.citationlist.errorDeletingCitation">Під час видалення цитати сталася помилка. Будь ласка, повідомте про цю помилку розробникам.</message>

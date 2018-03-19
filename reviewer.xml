@@ -8,10 +8,11 @@
   * Copyright (c) 2003-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
-  * Localization strings.
+  * Localization strings for the uk_UA (Українська) locale.
   -->
 
 <locale name="uk_UA" full_name="Українська">
+	<!-- Використовується під час рецензування -->
 	<message key="reviewer.reviewSteps.request">1. Запит</message>
 	<message key="reviewer.reviewSteps.guidelines">2. Довідник</message>
 	<message key="reviewer.reviewSteps.download">3. Завантажити та рецензувати</message>
